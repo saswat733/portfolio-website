@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#service">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <span class="material-symbols-outlined fas" onclick="closemenu()">close</span>
+                </ul>
+                <span class="material-symbols-outlined fas" onclick="openmenu()">menu</span>
+            </nav>
+            <div class="headertext">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I'm <span>Saswat </span><br>Singh From Australia</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- about page -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src="user.png" alt="">
+                </div>
+
+                <div class="aboutcol2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, doloremque magnam praesentium
+                        repudiandae tempore unde voluptas odit perspiciatis, delectus ipsam atque nemo quos magni ad in
+                        aperiam laborum. Reiciendis, corporis!</p>
+
+                    <div class="tab">
+                        <p class="tablinks activelink" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tabcontents activecontent" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Web App Development</span><br>Designing Android/ios interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Web App Development</span><br>Designing Android/ios interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span>UI?UXhello</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Web App Development</span><br>Designing Android/ios interfaces</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services start
+    -->
+
+    <div id="service">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="servicelist">
+                <div>
+                    <span class="material-symbols-outlined">
+                        code
+                    </span>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui commodi recusandae, aspernatur
+                        error unde numquam perspiciatis quisquam quibusdam voluptas dignissimos, ducimus facere itaque
+                        esse libero aliquam nostrum deleniti cumque!</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        crop
+                    </span>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui commodi recusandae, aspernatur
+                        error unde numquam perspiciatis quisquam quibusdam voluptas dignissimos, ducimus facere itaque
+                        esse libero aliquam nostrum deleniti cumque!</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        text_format
+                    </span>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui commodi recusandae, aspernatur
+                        error unde numquam perspiciatis quisquam quibusdam voluptas dignissimos, ducimus facere itaque
+                        esse libero aliquam nostrum deleniti cumque!</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="work-1.png" alt="1">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus reprehenderit unde
+                            sunt voluptatem mollitia nesciunt vitae quisquam soluta architecto distinctio.</p>
+                        <a href="#"><span class="material-symbols-outlined">
+                            link
+                            </span></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="1">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus reprehenderit unde
+                            sunt voluptatem mollitia nesciunt vitae quisquam soluta architecto distinctio.</p>
+                        <a href="#"><span class="material-symbols-outlined">
+                            link
+                            </span></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="1">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus reprehenderit unde
+                            sunt voluptatem mollitia nesciunt vitae quisquam soluta architecto distinctio.</p>
+                        <a href="#"><span class="material-symbols-outlined">
+                            link
+                            </span></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+<!-- content -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><span class="material-symbols-outlined">send</span>Contact@gmail.com</p>
+                    <p><span class="material-symbols-outlined">call</span>0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com"><span class="material-symbols-outlined">
+                            public
+                            </span></a>
+                        <a href="http://google.com"><span class="material-symbols-outlined">
+                            psychology
+                            </span></a>
+                        <a href="https://facebook.com"><span class="material-symbols-outlined">
+                            emoji_people
+                            </span></a>
+                        <a href="https://bootstrap.com"><span class="material-symbols-outlined">
+                            connect_without_contact
+                            </span></a>
+                    </div>
+                    <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder=" Your message"></textarea> 
+                        <button type="submit" class="btn btn2">Submit</button>                   
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Kevin . Made with <span class="material-symbols-outlined">favorite</span>Love</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tablinks");
+        var tabcontents = document.getElementsByClassName("tabcontents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("activelink")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("activecontent")
+            }
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("activecontent")
+        }
+    </script>
+    <script>
+        let sidemenu=document.getElementById('sidemenu');
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+
+</html>
